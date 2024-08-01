@@ -147,7 +147,37 @@ To https://github.com/kingdvd/unit1-git-practice.git
 branch 'main' set up to track 'origin/main'.
 
 ### Step 6
+touch menu.txt
+git status
+On branch main
+Your branch is up to date with 'origin/main'.
 
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   mysteps
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        menu.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+git add .
+git commit -m "Starting a menu"
+[main 866d2eb] Starting a menu
+ 2 files changed, 153 insertions(+)
+ create mode 100644 menu.txt
+
+git push
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 1.43 KiB | 1.43 MiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/kingdvd/unit1-git-practice.git
+   78213a0..866d2eb  main -> main
 
 ### Step 7
 *** DO NOT RECORD STEP 7 ***
